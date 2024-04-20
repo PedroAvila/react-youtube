@@ -7,16 +7,6 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 
 const Formulario = () => {
-  // let valoresIniciales = {
-  //   nombre: "",
-  //   email: "",
-  //   contraseña: "",
-  // };
-
-  // const enviarForm = (data) => {
-  //   console.log(data);
-  // };
-
   const { handleSubmit, handleChange, values, setFieldValue, errors } =
     useFormik({
       initialValues: {
